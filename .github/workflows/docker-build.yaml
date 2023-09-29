@@ -78,7 +78,7 @@ jobs:
           platform: "linux/amd64"
           organization: "dockerscoutpolicy"
 
-      - name: Compare to deployed image
+      - name: Compare local image to latest deployed image
         id: docker-scout-compare
         if: ${{ github.event_name == 'pull_request_target' }}
         uses: felipecruz91/scout-action@main
