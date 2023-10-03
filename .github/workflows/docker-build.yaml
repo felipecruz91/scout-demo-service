@@ -90,4 +90,5 @@ jobs:
           to-latest: true
           platform: "linux/amd64"
           exit-code: true
+          debug: true
 
