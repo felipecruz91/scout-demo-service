@@ -88,7 +88,6 @@ jobs:
           organization: "dockerscoutpolicy"
           only-severities: critical,high
           to-latest: true
-          platform: "linux/amd64"
           exit-code: true
           debug: true
 
